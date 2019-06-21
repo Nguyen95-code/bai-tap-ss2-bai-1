@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputVatli;
+    let inputHoahoc;
+    let inputSinhhoc;
+    inputVatli = prompt("nhap diem Vat Li");
+    inputHoahoc = prompt("nhap diem Hoa Hoc");
+    inputSinhhoc = prompt("nhap diem Sinh hoc");
+    let Vatli = Number(inputVatli);
+    let Hoahoc = Number(inputHoahoc);
+    let Sinhhoc = Number(inputSinhhoc);
+    let diemTB = (Vatli + Hoahoc + Sinhhoc)/3;
+    document.write("diemTB :" +diemTB);
+    document.write('<br/>');
+    let tongdiem = (Vatli + Hoahoc + Sinhhoc);
+    document.write("tongdiem : " +tongdiem);
+</script>
+</body>
+</html>
